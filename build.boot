@@ -1,4 +1,4 @@
-(def project 'hellhound-template/boot-template)
+(def project 'hellhound/boot-template)
 (def version "0.1.0-SNAPSHOT")
 
 (set-env! :resource-paths #{"resources" "src"}
@@ -11,11 +11,11 @@
 (task-options!
  pom {:project     project
       :version     version
-      :description "FIXME: write description"
-      :url         "http://example/FIXME"
-      :scm         {:url "https://github.com/yourname/hellhound-template"}
-      :license     {"Eclipse Public License"
-                    "http://www.eclipse.org/legal/epl-v10.html"}})
+      :description "HellHound 'boot new' template."
+      :url         "http://github.com/Cidamic/hellhound-template"
+      :scm         {:url "https://github.com/Codamic/hellhound-template"}
+      :license     {"GPLv2"
+                    "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"}})
 
 (deftask build
   "Build and install the project locally."
