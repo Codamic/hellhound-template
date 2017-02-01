@@ -32,4 +32,5 @@
              ["README.md"  (render "README.md"  data)]
              ["boot.properties"  (render "boot.properties"  data)]
              ["src/clj/{{sanitized}}/handler.clj" (render "handler.clj" data)]
-             ["src/clj/{{sanitized}}/system.clj"  (render "system.clj" data)])))
+             ["src/clj/{{sanitized}}/system.clj"  (render "system.clj" data)]
+             ["src/clj/{{sanitized}}/controllers/home.clj"  (render "home.clj" data)])))
